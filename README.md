@@ -14,6 +14,15 @@
 ### git push
 1. para sincronizar ou subir as mudanças para o repositório remoto
 2. git push -u origin "nome da branch"
+brach é uma ramificação da linha do tempo do projeto
 
+### criar novas ramificações
+git branch nome_que_voce_quiser
+ trocar de branch
+ git checkout e o nome
 
+ ex criar
+ git branch v2   
+ ex mudar
+ git checkout v2
 
