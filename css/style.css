@@ -4,6 +4,21 @@
     border: 0;
     box-sizing: border-box;
 }
+.nav-top{
+    display: flex;
+    align-items: center;
+    border: #06652e solid 1px;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+}
 main{
     border: solid 2px red;
     max-width: 1200px;
@@ -46,4 +61,7 @@ section{
 #botao-cancelar{
     width: 300px;
     background-color: red;
+}
+.logo{
+    width: 80px;
 }
