@@ -4,6 +4,37 @@
     border: 0;
     box-sizing: border-box;
 }
+.nav-top{
+    display: flex;
+    align-items: center;
+    border: #06652e 1px;
+    justify-content: space-around;
+}
+    a{
+        font: size 18px; ;
+        text-decoration:none ;
+    }
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+.botao-cta{
+    padding: 5px;
+    margin: 5px;
+    border: solid 1px blue;
+    border-radius: 10% 30px 10px 30px; 
+    box-shadow: 4px 6px black;
+}
+.botao-cta:hover{
+    background-color: #50c9ee;
+    
+}
+.botao-cta:active{
+    box-shadow: inset 4px 3px 5px 0px black ;
+}
 main{
     border: solid 2px red;
     max-width: 1200px;
@@ -46,4 +77,7 @@ section{
 #botao-cancelar{
     width: 300px;
     background-color: red;
+}
+.logo{
+ width: 70px;
 }
